@@ -40,7 +40,7 @@ int main () {
             mul[i] += data_m[i][j]*data_v[j];
         }
         cout << mul[i] << "\t" ;
-        outfile_r << mul[i] << endl; // give results in outfile
+        outfile_r << mul[i] << "\n"; // give results in outfile
     }
     cout << "finish calculate" << endl;
 
